@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import {ShoeLogo} from "../../../assets/ShoeLogo";
 import { Avatar, AvatarGroup,Button } from "@nextui-org/react"
 import { HiOutlineMail } from "react-icons/hi";
+import { FaFacebook, FaInstagram, FaYoutube  } from "react-icons/fa";
 
 function Footer() {
   const getYear = () => {
@@ -48,21 +49,22 @@ function Footer() {
         </div>
         <div className="min-[1130px]:col-span-7 max-[1130px]:pt-10 lg:pl-14 col-span-1 w-full min-[1130px]:max-w-full mx-auto flex flex-col sm:flex-row justify-between gap-6 ">
           <div className="">
-            <h6 className="text-lg font-medium text-gray-900 mb-7 max-sm:text-center">Address</h6>
+            <h6 className="text-lg font-medium text-gray-900 mb-7 max-sm:text-center">Shortcut</h6>
             <ul className="flex flex-col gap-6">
-              <li><p href="javascript:;"
-                  className="text-base font-normal max-sm:text-center  text-gray-600">61-A, Elm street, Gujarat, India.</p>
-              </li>
-              
+              <li><Link to="/manShoes">Kids Shoes</Link></li>
+              <li><Link to="/manShoes">Man Shoes</Link></li>
+              <li><Link to="/manShoes">Women Shoes</Link></li>
             </ul>
           </div>
           <div className="">
             <h6 className="text-lg font-medium text-gray-900 mb-7 max-sm:text-center">Contact</h6>
             <ul className="flex flex-col gap-6">
-              <li><p href="javascript:;"
-                  className="text-base font-normal max-sm:text-center text-gray-600 whitespace-nowrap">+91 945 658 3256</p></li>
-              <li><p href="javascript:;"
-                  className="text-base font-normal max-sm:text-center text-gray-600 whitespace-nowrap ">support@pagedone.com</p></li>
+              <li>
+                <p className="text-base max-sm:text-center text-gray-600">+91 945 658 3256</p>
+              </li>
+              <li>
+                <p className="text-base max-sm:text-center text-gray-600">support@pagedone.com</p>
+              </li>
               
             </ul>
           </div>
@@ -79,7 +81,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between pt-7">
+      <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between py-7">
         <p className="font-normal text-sm text-gray-400">©<a href="https://pagedone.io/">Hossain Ahmed </a>{getYear()}, All rights reserved.</p>
         <ul className="flex items-center gap-9">
           <li><a href="javascript:;"
@@ -95,10 +97,15 @@ function Footer() {
         <div className="flex items-center gap-4">
           <button
             className="w-9 h-9 flex items-center relative border border-gray-300 overflow-hidden justify-center rounded-full bg-white shadow-sm shadow-gray-200 group transition-all duration-300 focus-within:outline-0">
-            <ShoeLogo />
-            <div
-              className="absolute top-full left-0 w-full h-full rounded-full bg-sky-500 z-0 transition-all duration-500 group-hover:top-0 group-focus-within:top-0">
-            </div>
+            <FaFacebook />
+          </button>
+          <button
+            className="w-9 h-9 flex items-center relative border border-gray-300 overflow-hidden justify-center rounded-full bg-white shadow-sm shadow-gray-200 group transition-all duration-300 focus-within:outline-0">
+            <FaInstagram />
+          </button>
+          <button
+            className="w-9 h-9 flex items-center relative border border-gray-300 overflow-hidden justify-center rounded-full bg-white shadow-sm shadow-gray-200 group transition-all duration-300 focus-within:outline-0">
+            <FaYoutube />
           </button>
         </div>
       </div>
