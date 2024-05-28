@@ -74,7 +74,7 @@ function NavBar() {
           <NavbarItem className="hidden lg:flex">
             <Dropdown placement="bottom-end">
               <DropdownTrigger>
-                <Avatar isBordered as="button" className="transition-transform" color="primary" 
+                <Avatar isBordered as="button" className="transition-transform" color="default" 
                   name={user?.displayName} size="sm"
                   src={user?.photoURL}
                 />
