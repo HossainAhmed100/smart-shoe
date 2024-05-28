@@ -16,8 +16,8 @@ function Home() {
           <h1 className="text-base text-gray-500">Discover our stylish, comfortable shoes designed for every occasion. Step confidently with our premium footwear, crafted for durability and elegance. Elevate your every stride.</h1>
           <div className="flex items-center justify-center gap-4 mt-4">
           <Button radius="sm" endContent={<FaArrowRight size={18}/>} size="lg" 
-          className="bg-gradient-to-tr from-gray-800 to-gray-900 text-white shadow-lg">All Product</Button>
-          <Button radius="sm" startContent={<FaCartShopping size={18}/>} size="lg" color="default" variant="bordered">Buy now</Button>
+          className="bg-gradient-to-tr from-gray-800 to-gray-900 text-white shadow-lg"><Link to="/allProduct">All Product</Link></Button>
+          <Button radius="sm" startContent={<FaCartShopping size={18}/>} size="lg" color="default" variant="bordered"><Link to="/allProduct">Buy Now</Link></Button>
           </div>
           </div>
           <div className="w-full items-center flex justify-center m-auto">

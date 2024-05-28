@@ -29,7 +29,7 @@ function ProductCard({shoe}) {
             <small className="text-default-500 line-through">Tk.500</small>
           </div>
           <Button isIconOnly radius="full" className="bg-black text-white shadow-lg" aria-label="Like">
-            <Link to={`/shoes/${shoe?.id}`}><CgArrowTopRight size={25}/></Link>
+            <Link to={`/allProduct/${shoe?.id}`}><CgArrowTopRight size={25}/></Link>
           </Button>
         </div>
       </CardHeader>
