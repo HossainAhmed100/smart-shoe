@@ -2,6 +2,7 @@ import { Image,Button } from "@nextui-org/react"
 import { FaCartShopping,FaArrowRight  } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import SponsorPage from "./SponsorPage";
+import AllProduct from "../../AllProduct/AllProduct";
 
 function Home() {
   return (
@@ -29,12 +30,9 @@ function Home() {
         </div>
       </div>
     </section>
-    <section>
-      <SponsorPage />
-    </section>
-    <section>
-      <PhotoGallery />
-    </section>
+    <section><SponsorPage /></section>
+    <AllProduct />
+    <section><PhotoGallery /></section>
   </div>
   )
 }
