@@ -3,6 +3,7 @@ import {ShoeLogo} from "../../../assets/ShoeLogo";
 import { Avatar, AvatarGroup,Button } from "@nextui-org/react"
 import { HiOutlineMail } from "react-icons/hi";
 import { FaFacebook, FaInstagram, FaYoutube  } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Footer() {
   const getYear = () => {
@@ -209,100 +210,78 @@ function Footer() {
         </div>
         <div className="min-[1130px]:col-span-7 max-[1130px]:pt-10 lg:pl-14 col-span-1 w-full min-[1130px]:max-w-full mx-auto flex flex-col sm:flex-row justify-between gap-6 ">
         <div className="flex items-start justify-between max-w-sm mx-auto w-full lg:max-w-xs lg:ml-0">
-                    <div className=" md:col-span-1">
-                        <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pagedone</h4>
-                        <ul className=" transition-all duration-500">
-                            <li className="mb-6"><a href="javascript:;"
-                                    className="text-gray-600 max-lg:flex hover:text-gray-900">Home</a></li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">About</a>
-                            </li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Pricing</a>
-                            </li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Features</a>
-                            </li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Pro
-                                    Version</a></li>
-                        </ul>
-                    </div>
-                    <div className=" md:col-span-1">
-                        <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Support</h4>
-                        <ul className=" transition-all duration-500">
-                            <li className="mb-6"><a href="javascript:;"
-                                    className="text-gray-600 max-lg:flex hover:text-gray-900">Customer
-                                    Support</a></li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Cookies</a>
-                            </li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">License</a>
-                            </li>
-                            <li className="mb-6"><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Terms &
-                                    Conditions</a></li>
-                            <li className=""><a href="javascript:;"
-                                    className=" text-gray-600 max-lg:flex hover:text-gray-900">Privacy
-                                    Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-          <div className=" lg:text-left col-span-full md:col-span-1 lg:w-max">
-                    <div className="flex justify-between items-center mb-7 max-w-sm mx-auto">
-                        <h4 className="text-lg text-gray-900 font-medium ">Instagram</h4>
-                        <a href="javascript:;"
-                            className="flex items-center gap-2 text-xs text-indigo-600 font-semibold">Visit All<svg
-                                width="13" height="10" viewBox="0 0 13 10" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M1 5L11.6667 5M8.33333 9L11.8619 5.4714C12.0842 5.24918 12.1953 5.13807 12.1953 5C12.1953 4.86193 12.0842 4.75082 11.8619 4.5286L8.33333 1"
-                                    stroke="#4F46E5" strokeWidth="1.6" strokeLinecap="round"
-                                    strokeLinejoin="round" />
-                            </svg>
-                        </a>
-                    </div>
-                    <div className="grid grid-cols-3 gap-3 max-w-sm mx-auto ">
-                        <div className="block">
-                          <img src="https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                        <div className="block">
-                          <img src="https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                        <div className="block">
-                          <img src="https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                        <div className="block">
-                          <img src="https://i.ibb.co/S72kSF7/Untitled-design-111.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                        <div className="block">
-                          <img src="https://i.ibb.co/j6cmG7j/Untitled-design-110.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                        <div className="block">
-                          <img src="https://i.ibb.co/J7c09kR/Untitled-design-111-1.png" 
-                          alt="Footer Shoe img" className="max-lg:w-full" />
-                        </div>
-                    </div>
-                </div>
+          <div className=" md:col-span-1">
+            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pagedone</h4>
+            <ul className=" transition-all duration-500">
+              <li className="mb-6"><FooterLink path={"/"} title={"Home"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"About"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Pricing"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Features"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Pro Version"}/></li>
+            </ul>
+          </div>
+          <div className=" md:col-span-1">
+            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Support</h4>
+            <ul className=" transition-all duration-500">
+              <li className="mb-6"><FooterLink path={"/"} title={"Custome Support"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Cookies"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Lincense"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Terms & Contitions"}/></li>
+              <li className="mb-6"><FooterLink path={"/"} title={"Privacy Policy"}/></li>
+            </ul>
+          </div>
+        </div>
+        <div className=" lg:text-left col-span-full md:col-span-1 lg:w-max">
+          <div className="flex justify-between items-center mb-7 max-w-sm mx-auto">
+            <h4 className="text-lg text-gray-900 font-medium ">Instagram</h4>
+            <Link to={"/allProduct"}
+              className="flex items-center gap-2 text-xs text-indigo-600 font-semibold">Visit All
+              <FaArrowRightLong size={16}/>
+            </Link>
+          </div>
+          <div className="grid grid-cols-3 gap-3 max-w-sm mx-auto ">
+            <div className="block">
+              <img src="https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+            <div className="block">
+              <img src="https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+            <div className="block">
+              <img src="https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+            <div className="block">
+              <img src="https://i.ibb.co/S72kSF7/Untitled-design-111.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+            <div className="block">
+              <img src="https://i.ibb.co/j6cmG7j/Untitled-design-110.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+            <div className="block">
+              <img src="https://i.ibb.co/J7c09kR/Untitled-design-111-1.png" 
+              alt="Footer Shoe img" className="max-lg:w-full" />
+            </div>
+          </div>
+        </div>
         </div>
       </div>
       <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between py-7">
         <p className="text-sm text-gray-400">© Hossain Ahmed {getYear()} All rights reserved.</p>
         <ul className="flex items-center gap-9">
-          <li><a href="javascript:;"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Terms</a>
+          <li>
+            <Link to="/"
+              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Terms</Link>
           </li>
-          <li><a href="javascript:;"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Privacy</a>
+          <li>
+            <Link to="/"
+              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Privacy</Link>
           </li>
-          <li><a href="javascript:;"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Cookies</a>
+          <li>
+            <Link to="/"
+              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Cookies</Link>
           </li>
         </ul>
         <div className="flex items-center gap-4">
@@ -321,6 +300,12 @@ function Footer() {
         </div>
       </div>
     </footer>
+  )
+}
+
+const FooterLink = ({title, path}) => {
+  return (
+    <Link to={path} className="text-gray-600 max-lg:flex hover:text-gray-900">{title}</Link>
   )
 }
 
