@@ -6,31 +6,203 @@
       "brand": "Nike",
       "price": "160",
       "description": "The Nike Air Max 270 combines modern comfort with a throwback style inspired by the Air Max 180 and Air Max 93.",
-      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1654.jpg?t=st=1716454923~exp=1716458523~hmac=b92da332b8a1f96366f25dffb2f1ece13d842e4afe9417b21e94e4009f93b09c&w=1480"
+      "image_url": "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+      "galleryImg": [
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
+      ],
+      "color": "red",
+      "size": "xl",
+      "ratings": "6787"
     },
     {
       "id": "2",
-      "title": "UltraBoost 21",
+      "title": "Ultraboost 21",
       "brand": "Adidas",
-      "price": 180,
-      "description": "The Adidas UltraBoost 21 features a bold new design with an improved Boost midsole for ultimate comfort and energy return.",
-      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1610.jpg?t=st=1716454855~exp=1716458455~hmac=7bbba604387bb3447eb82633eaf611178ba651580f20fd9d4a5610fa1c6bbd40&w=1480"
+      "price": "180",
+      "description": "The Adidas Ultraboost 21 provides incredible energy return with every step, perfect for both running and everyday wear.",
+      "image_url": "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+      "galleryImg": [
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
+      ],
+      "color": "black",
+      "size": "l",
+      "ratings": "5421"
     },
     {
       "id": "3",
-      "title": "Classic Leather",
-      "brand": "Reebok",
-      "price": 75,
-      "description": "Reebok's Classic Leather sneakers are timeless icons, offering everyday comfort and a sleek look with their soft leather upper.",
-      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1659.jpg?t=st=1716454935~exp=1716458535~hmac=6e3b9b287577c5006087b1d65aa8d14583b60fb12f383e77c2563e3262aa46ce&w=1480"
+      "title": "Gel-Kayano 27",
+      "brand": "ASICS",
+      "price": "160",
+      "description": "ASICS Gel-Kayano 27 offers superior stability and comfort, ideal for long-distance runs and everyday activities.",
+      "image_url": "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
+      "galleryImg": [
+        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
+      ],
+      "color": "blue",
+      "size": "m",
+      "ratings": "3245"
     },
     {
       "id": "4",
-      "title": "Gel-Kayano 27",
-      "brand": "ASICS",
-      "price": 160,
-      "description": "The ASICS Gel-Kayano 27 provides premium stability and cushioning, perfect for overpronators seeking a smooth, comfortable run.",
-      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1690.jpg?t=st=1716454980~exp=1716458580~hmac=e037656587873c5960eb058f5bcc654f6d7ac61b6b9fd539d05b6a91b08ac6bf&w=1480"
+      "title": "Chuck Taylor All Star",
+      "brand": "Converse",
+      "price": "55",
+      "description": "The Converse Chuck Taylor All Star is a timeless classic that has been a wardrobe staple for generations.",
+      "image_url": "https://i.ibb.co/Sy1pmsc/Untitled-design-108-4.png",
+      "galleryImg": [
+        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-4.png",
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
+      ],
+      "color": "white",
+      "size": "s",
+      "ratings": "8763"
+    },
+    {
+      "id": "5",
+      "title": "Classic Leather",
+      "brand": "Reebok",
+      "price": "75",
+      "description": "The Reebok Classic Leather combines a retro design with modern comfort, perfect for any casual occasion.",
+      "image_url": "https://i.ibb.co/1nhV3zD/Untitled-design-108-5.png",
+      "galleryImg": [
+        "https://i.ibb.co/1nhV3zD/Untitled-design-108-5.png",
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
+      ],
+      "color": "black",
+      "size": "xl",
+      "ratings": "4352"
+    },
+    {
+      "id": "6",
+      "title": "Air Jordan 1",
+      "brand": "Nike",
+      "price": "170",
+      "description": "The Air Jordan 1 is a legendary sneaker that offers a mix of style, comfort, and performance on the court.",
+      "image_url": "https://i.ibb.co/25mF5mb/Untitled-design-108-6.png",
+      "galleryImg": [
+        "https://i.ibb.co/25mF5mb/Untitled-design-108-6.png",
+        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
+        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
+        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
+      ],
+      "color": "red",
+      "size": "l",
+      "ratings": "12345"
+    },
+    {
+      "id": "7",
+      "title": "Fresh Foam 1080v11",
+      "brand": "New Balance",
+      "price": "150",
+      "description": "The New Balance Fresh Foam 1080v11 provides a plush, cushioned ride that is perfect for long-distance running.",
+      "image_url": "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+      "galleryImg": [
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
+      ],
+      "color": "blue",
+      "size": "m",
+      "ratings": "2945"
+    },
+    {
+      "id": "8",
+      "title": "Metcon 6",
+      "brand": "Nike",
+      "price": "130",
+      "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
+      "image_url": "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+      "galleryImg": [
+        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
+      ],
+      "color": "black",
+      "size": "l",
+      "ratings": "3189"
+    },
+    {
+      "id": "9",
+      "title": "ZoomX Vaporfly NEXT%",
+      "brand": "Nike",
+      "price": "250",
+      "description": "The Nike ZoomX Vaporfly NEXT% is engineered for speed, featuring a lightweight design and responsive cushioning.",
+      "image_url": "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+      "galleryImg": [
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
+      ],
+      "color": "green",
+      "size": "xl",
+      "ratings": "1587"
+    },
+    {
+      "id": "10",
+      "title": "NMD_R1",
+      "brand": "Nike",
+      "price": "130",
+      "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
+      "image_url": "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png",
+      "galleryImg": [
+        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png",
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png"
+      ],
+      "color": "red",
+      "size": "l",
+      "ratings": "3189"
+    },
+    {
+      "id": "11",
+      "title": "Pegasus 37",
+      "brand": "Nike",
+      "price": "130",
+      "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
+      "image_url": "https://i.ibb.co/LCRLqCT/Untitled-design-112-1.png",
+      "galleryImg": [
+        "https://i.ibb.co/LCRLqCT/Untitled-design-112-1.png",
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
+      ],
+      "color": "black",
+      "size": "l",
+      "ratings": "3189"
+    },
+    {
+      "id": "12",
+      "title": "Yeezy Boost 350 V2",
+      "brand": "Nike",
+      "price": "250",
+      "description": "The Nike ZoomX Vaporfly NEXT% is engineered for speed, featuring a lightweight design and responsive cushioning.",
+      "image_url": "https://i.ibb.co/7Vw9xc6/Untitled-design-114.png",
+      "galleryImg": [
+        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
+        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
+        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
+        "https://i.ibb.co/7Vw9xc6/Untitled-design-114.png"
+      ],
+      "color": "green",
+      "size": "xl",
+      "ratings": "1587"
     }
   ]
 }

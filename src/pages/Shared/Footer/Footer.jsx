@@ -9,8 +9,8 @@ function Footer() {
     return new Date().getFullYear();
 }
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 min-[1130px]:grid-cols-12 gap-8 lg:gap-0 pb-14 border-b-2 border-gray-200">
+    <footer className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 border-t-1">
+      <div className="grid grid-cols-1 min-[1130px]:grid-cols-12 gap-8 lg:gap-0 py-10 border-b-2 border-gray-200">
         <div className="min-[1130px]:col-span-5 col-span-1 w-full min-[1130px]:max-w-full mx-auto">
           <div className="flex flex-col max-sm:items-center gap-8 w-full ">
             <Link to="/" className="flex items-center justify-start">
@@ -82,7 +82,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between py-7">
-        <p className="font-normal text-sm text-gray-400">©<a href="https://pagedone.io/">Hossain Ahmed </a>{getYear()}, All rights reserved.</p>
+        <p className="text-sm text-gray-400">© Hossain Ahmed {getYear()} All rights reserved.</p>
         <ul className="flex items-center gap-9">
           <li><a href="javascript:;"
               className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Terms</a>
@@ -109,7 +109,7 @@ function Footer() {
           </button>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
