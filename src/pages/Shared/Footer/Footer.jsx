@@ -25,7 +25,7 @@ function Footer() {
               </div>
               <input type="text" id="default-search"
                 className="block w-full max-sm:min-w-full sm:max-w-xs pr-4 pl-12 py-2.5 text-base font-normal shadow-xs text-gray-900 bg-transparent border border-gray-300 rounded-lg placeholder-gray-400 focus:outline-none leading-relaxed"
-                placeholder="mail@pagedone.com"/>
+                placeholder="mail@smartshoe.com"/>
             </div>
             <Button radius="sm" size="lg" color="primary">Subscribe</Button>
            </div>
@@ -211,7 +211,7 @@ function Footer() {
         <div className="min-[1130px]:col-span-7 max-[1130px]:pt-10 lg:pl-14 col-span-1 w-full min-[1130px]:max-w-full mx-auto flex flex-col sm:flex-row justify-between gap-6 ">
         <div className="flex items-start justify-between max-w-sm mx-auto w-full lg:max-w-xs lg:ml-0">
           <div className=" md:col-span-1">
-            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pagedone</h4>
+            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pages</h4>
             <ul className=" transition-all duration-500">
               <li className="mb-6"><FooterLink path={"/"} title={"Home"}/></li>
               <li className="mb-6"><FooterLink path={"/"} title={"About"}/></li>
@@ -233,7 +233,7 @@ function Footer() {
         </div>
         <div className=" lg:text-left col-span-full md:col-span-1 lg:w-max">
           <div className="flex justify-between items-center mb-7 max-w-sm mx-auto">
-            <h4 className="text-lg text-gray-900 font-medium ">Instagram</h4>
+            <h4 className="text-lg text-gray-900 font-medium ">Product</h4>
             <Link to={"/allProduct"}
               className="flex items-center gap-2 text-xs text-indigo-600 font-semibold">Visit All
               <FaArrowRightLong size={16}/>
@@ -270,20 +270,6 @@ function Footer() {
       </div>
       <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between py-7">
         <p className="text-sm text-gray-400">© Hossain Ahmed {getYear()} All rights reserved.</p>
-        <ul className="flex items-center gap-9">
-          <li>
-            <Link to="/"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Terms</Link>
-          </li>
-          <li>
-            <Link to="/"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Privacy</Link>
-          </li>
-          <li>
-            <Link to="/"
-              className="text-gray-500 text-sm font-normal transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Cookies</Link>
-          </li>
-        </ul>
         <div className="flex items-center gap-4">
           <button
             className="w-9 h-9 flex items-center relative border border-gray-300 overflow-hidden justify-center rounded-full bg-white shadow-sm shadow-gray-200 group transition-all duration-300 focus-within:outline-0">

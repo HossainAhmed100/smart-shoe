@@ -1,6 +1,5 @@
 import { Image,Button } from "@nextui-org/react"
 import { FaCartShopping,FaArrowRight  } from "react-icons/fa6";
-import { CgArrowTopRight } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import SponsorPage from "./SponsorPage";
 
