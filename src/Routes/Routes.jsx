@@ -13,6 +13,7 @@ import AddNewProduct from "../pages/Admin/AddNewProduct/AddNewProduct";
 import ManageProduct from "../pages/Admin/ManageProduct/ManageProduct";
 import DashboardLayout from "../layout/DashboardLayout";
 import Dashboard from "../pages/Admin/Dashboard/Dashboard";
+import UpdateProduct from "../pages/Admin/UpdateProduct/UpdateProduct";
 
 export const router = createBrowserRouter([
     {
@@ -63,6 +64,11 @@ export const router = createBrowserRouter([
                 path: "myProfile",
                 element: <MyProfile />
             },
+            {
+                path: "updateProduct/:id",
+                element: <UpdateProduct />,
+                loader: ({params}) => fetch(`http://localhost:3000/shoes/${params.id}`)
+            }
         ]
     },
     {

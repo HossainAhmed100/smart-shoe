@@ -39,7 +39,7 @@ function AdminProductCard({shoe, handleDelete}) {
            Delete
         </Button>
         <Button color="success" startContent={<BiSolidEdit size={20}/>}>
-          Update
+         <Link to={`/dashboard/updateProduct/${shoe?.id}`}>Update</Link>
         </Button> 
        </div>
     </CardFooter>
