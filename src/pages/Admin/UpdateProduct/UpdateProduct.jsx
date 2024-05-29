@@ -21,6 +21,16 @@ function UpdateProduct() {
         image_url: data.productImgUrl,
         description: data.productDescription
         };
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You want to Update this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Update"
+          }).then(async (result) => {
+            if (result.isConfirmed) {
         const productRes = await axiosPublic.patch(`/shoes/${shoe?.id}`, product);
           console.log(productRes.data)
           if(productRes.data.price){
@@ -30,7 +40,8 @@ function UpdateProduct() {
               showConfirmButton: false,
               timer: 1500
             });
-          }
+          }}
+          });
     };
     const brandNameList = [
       {label: "Nike", value: "Nike"},

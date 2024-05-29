@@ -27,6 +27,16 @@ function AddNewProduct() {
         image_url: data.productImgUrl,
         description: data.productDescription
         };
+        Swal.fire({
+          title: "Are you sure?",
+          text: "You want to Add this!",
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Add now"
+        }).then(async (result) => {
+          if (result.isConfirmed) {
         const productRes = await axiosPublic.post("/shoes", product);
           console.log(productRes.data)
           if(productRes.data.price){
@@ -38,6 +48,7 @@ function AddNewProduct() {
               timer: 1500
             });
           }
+          }})
     };
     const brandNameList = [
       {label: "Nike", value: "Nike"},

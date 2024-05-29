@@ -2,10 +2,9 @@
   background-color: rgb(49, 48, 48);
 }
 
-/* Add this CSS to your stylesheet */
 .mainSidebar {
   position: sticky;
   top: 0;
-  height: 100vh; /* Adjust height as needed */
-  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100vh; 
+  overflow-y: auto; 
 }
