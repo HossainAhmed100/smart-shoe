@@ -1,9 +1,5 @@
 .active{
-  background-color: #eeeeee;
-}
-
-.active div span{
-  color: rgb(49, 48, 48);
+  background-color: rgb(49, 48, 48);
 }
 
 /* Add this CSS to your stylesheet */

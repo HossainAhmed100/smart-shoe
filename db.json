@@ -7,32 +7,7 @@
       "price": 1600,
       "description": "The Nike Air Max 270 combines modern comfort with a throwback style inspired by the Air Max 180 and Air Max 93.",
       "image_url": "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-      "galleryImg": [
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
-      ],
-      "color": "red",
-      "size": "xl",
       "ratings": "6787"
-    },
-    {
-      "id": "2",
-      "title": "Ultraboost 21",
-      "brand": "Adidas",
-      "price": 1800,
-      "description": "The Adidas Ultraboost 21 provides incredible energy return with every step, perfect for both running and everyday wear.",
-      "image_url": "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-      "galleryImg": [
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
-      ],
-      "color": "black",
-      "size": "l",
-      "ratings": "5421"
     },
     {
       "id": "3",
@@ -41,14 +16,6 @@
       "price": 1600,
       "description": "ASICS Gel-Kayano 27 offers superior stability and comfort, ideal for long-distance runs and everyday activities.",
       "image_url": "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
-      "galleryImg": [
-        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-3.png",
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-4.png"
-      ],
-      "color": "blue",
-      "size": "m",
       "ratings": "3245"
     },
     {
@@ -58,14 +25,6 @@
       "price": 550,
       "description": "The Converse Chuck Taylor All Star is a timeless classic that has been a wardrobe staple for generations.",
       "image_url": "https://i.ibb.co/Sy1pmsc/Untitled-design-108-4.png",
-      "galleryImg": [
-        "https://i.ibb.co/Sy1pmsc/Untitled-design-108-4.png",
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
-      ],
-      "color": "white",
-      "size": "s",
       "ratings": "8763"
     },
     {
@@ -75,14 +34,6 @@
       "price": 750,
       "description": "The Reebok Classic Leather combines a retro design with modern comfort, perfect for any casual occasion.",
       "image_url": "https://i.ibb.co/1nhV3zD/Untitled-design-108-5.png",
-      "galleryImg": [
-        "https://i.ibb.co/1nhV3zD/Untitled-design-108-5.png",
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
-      ],
-      "color": "black",
-      "size": "xl",
       "ratings": "4352"
     },
     {
@@ -92,14 +43,6 @@
       "price": 1700,
       "description": "The Air Jordan 1 is a legendary sneaker that offers a mix of style, comfort, and performance on the court.",
       "image_url": "https://i.ibb.co/25mF5mb/Untitled-design-108-6.png",
-      "galleryImg": [
-        "https://i.ibb.co/25mF5mb/Untitled-design-108-6.png",
-        "https://i.ibb.co/VQFdjBK/Untitled-design-108-1.png",
-        "https://i.ibb.co/KV7Jn58/Untitled-design-108-2.png",
-        "https://i.ibb.co/bdbKgS9/Untitled-design-108-3.png"
-      ],
-      "color": "red",
-      "size": "l",
       "ratings": "12345"
     },
     {
@@ -109,14 +52,6 @@
       "price": 1500,
       "description": "The New Balance Fresh Foam 1080v11 provides a plush, cushioned ride that is perfect for long-distance running.",
       "image_url": "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-      "galleryImg": [
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
-      ],
-      "color": "blue",
-      "size": "m",
       "ratings": "2945"
     },
     {
@@ -126,14 +61,6 @@
       "price": 1300,
       "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
       "image_url": "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-      "galleryImg": [
-        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
-      ],
-      "color": "black",
-      "size": "l",
       "ratings": "3189"
     },
     {
@@ -143,14 +70,6 @@
       "price": 2500,
       "description": "The Nike ZoomX Vaporfly NEXT% is engineered for speed, featuring a lightweight design and responsive cushioning.",
       "image_url": "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-      "galleryImg": [
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
-      ],
-      "color": "green",
-      "size": "xl",
       "ratings": "1587"
     },
     {
@@ -160,14 +79,6 @@
       "price": 1300,
       "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
       "image_url": "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png",
-      "galleryImg": [
-        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png",
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png"
-      ],
-      "color": "red",
-      "size": "l",
       "ratings": "3189"
     },
     {
@@ -177,14 +88,6 @@
       "price": 1300,
       "description": "The Nike Metcon 6 is designed for weight training and high-intensity workouts, offering stability and durability.",
       "image_url": "https://i.ibb.co/LCRLqCT/Untitled-design-112-1.png",
-      "galleryImg": [
-        "https://i.ibb.co/LCRLqCT/Untitled-design-112-1.png",
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/J7c09kR/Untitled-design-111-1.png"
-      ],
-      "color": "black",
-      "size": "l",
       "ratings": "3189"
     },
     {
@@ -194,14 +97,6 @@
       "price": 2500,
       "description": "The Nike ZoomX Vaporfly NEXT% is engineered for speed, featuring a lightweight design and responsive cushioning.",
       "image_url": "https://i.ibb.co/7Vw9xc6/Untitled-design-114.png",
-      "galleryImg": [
-        "https://i.ibb.co/S72kSF7/Untitled-design-111.png",
-        "https://i.ibb.co/j6cmG7j/Untitled-design-110.png",
-        "https://i.ibb.co/7JFrhVD/Untitled-design-109-1.png",
-        "https://i.ibb.co/7Vw9xc6/Untitled-design-114.png"
-      ],
-      "color": "green",
-      "size": "xl",
       "ratings": "1587"
     }
   ]

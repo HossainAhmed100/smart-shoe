@@ -8,11 +8,16 @@ import About from "../pages/Home/About";
 import Contact from "../pages/Home/Contact";
 import AllProduct from "../pages/AllProduct/AllProduct";
 import ViewProduct from "../pages/ViewProduct/ViewProduct";
+import MyProfile from "../pages/Admin/MyProfile/MyProfile";
+import AddNewProduct from "../pages/Admin/AddNewProduct/AddNewProduct";
+import ManageProduct from "../pages/Admin/ManageProduct/ManageProduct";
+import DashboardLayout from "../layout/DashboardLayout";
+import Dashboard from "../pages/Admin/Dashboard/Dashboard";
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <PriviteRoutes><MainLayout /></PriviteRoutes>,
+        element: <MainLayout />,
         children: [
             {
                 path: "/",
@@ -35,6 +40,28 @@ export const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />
+            },
+        ]
+    },
+    {
+        path: "/dashboard",
+        element: <PriviteRoutes><DashboardLayout /> </PriviteRoutes>,
+        children: [
+            {
+                path: "/dashboard",
+                element: <Dashboard />
+            },
+            {
+                path: "addNewProduct",
+                element: <AddNewProduct />
+            },
+            {
+                path: "manageProduct",
+                element: <ManageProduct />
+            },
+            {
+                path: "myProfile",
+                element: <MyProfile />
             },
         ]
     },

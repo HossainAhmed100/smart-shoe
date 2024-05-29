@@ -214,10 +214,10 @@ function Footer() {
             <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pages</h4>
             <ul className=" transition-all duration-500">
               <li className="mb-6"><FooterLink path={"/"} title={"Home"}/></li>
-              <li className="mb-6"><FooterLink path={"/"} title={"About"}/></li>
+              <li className="mb-6"><FooterLink path={"/about"} title={"About"}/></li>
               <li className="mb-6"><FooterLink path={"/"} title={"Pricing"}/></li>
               <li className="mb-6"><FooterLink path={"/"} title={"Features"}/></li>
-              <li className="mb-6"><FooterLink path={"/"} title={"Pro Version"}/></li>
+              <li className="mb-6"><FooterLink path={"/allProduct"} title={"Product"}/></li>
             </ul>
           </div>
           <div className=" md:col-span-1">
@@ -233,7 +233,7 @@ function Footer() {
         </div>
         <div className=" lg:text-left col-span-full md:col-span-1 lg:w-max">
           <div className="flex justify-between items-center mb-7 max-w-sm mx-auto">
-            <h4 className="text-lg text-gray-900 font-medium ">Product</h4>
+            <h4 className="text-lg text-gray-900 font-medium">Product</h4>
             <Link to={"/allProduct"}
               className="flex items-center gap-2 text-xs text-indigo-600 font-semibold">Visit All
               <FaArrowRightLong size={16}/>

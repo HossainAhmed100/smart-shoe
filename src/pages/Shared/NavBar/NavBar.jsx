@@ -15,10 +15,6 @@ function NavBar() {
     const [user] = useAuthState(auth);
     const navigate = useNavigate();
     const [signOut] = useSignOut(auth);
-    const menuItems = [
-        "Profile",
-        "Log Out",
-      ];
     const handleLogOut = async () => {
       const success = await signOut();
         if (success) {
@@ -49,23 +45,23 @@ function NavBar() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <NavLink color="foreground" to="/">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink color="foreground" to="/allProduct">Product</NavLink>
+          <NavLink to="/allProduct">Product</NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink color="foreground" to="/about">About</NavLink>
+          <NavLink to="/about">About</NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink color="foreground" to="/contact">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </NavbarItem>
       </NavbarContent>
       {
         user ? 
         <NavbarContent justify="end">
           <NavbarItem className="hidden lg:flex">
-            <Link to="/dashboard/messages">
+            <Link to="/dashboard/myCart">
               <Badge color="danger" content={0} shape="circle">
                 <FaCartShopping size={30}/>
               </Badge>
@@ -80,14 +76,16 @@ function NavBar() {
                 />
               </DropdownTrigger>
               <DropdownMenu aria-label="Profile Actions" variant="flat">
-                <DropdownItem textValue="userNameandEmail" key="profile" className="h-14 gap-2">
+                <DropdownItem textValue="userNameandEmail" key="userDetails" className="h-14 gap-2">
                   <p className="font-semibold">Signed in as</p>
                   <p className="font-semibold">{user?.email}</p>
                 </DropdownItem>
-                <DropdownItem textValue="myProfile" key="Provile">Profile</DropdownItem>
-                <DropdownItem textValue="dashboard" key="dashboard">Dashbaord</DropdownItem>
-                <DropdownItem textValue="termsAndConditions" key="termsAndConditions">Terms & Conditions</DropdownItem>
-                <DropdownItem textValue="privicPolicy" key="privicPolicy">Privicy Policy</DropdownItem>
+                <DropdownItem textValue="profile" key="profile">
+                  <Link className="inline-block w-full" to="/dashboard/myProfile">Profile</Link>
+                </DropdownItem>
+                <DropdownItem textValue="dashboard" key="dashboard">
+                  <Link className="inline-block w-full" to="/dashboard">Dashboard</Link>
+                </DropdownItem>
                 <DropdownItem textValue="logout" onClick={handleLogOut} key="logout" color="danger" className="flex items-center justify-center flex-row gap-2">
                   <span className="flex items-center gap-1 justify-start">
                   <VscSignOut />
@@ -110,17 +108,18 @@ function NavBar() {
         </NavbarContent> 
       }
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
-              className="w-full" to="/" size="lg" >
-              {item}
-            </Link>
+          <NavbarMenuItem>
+            <NavLink color="foreground" to="/">Home</NavLink>
           </NavbarMenuItem>
-        ))}
+          <NavbarMenuItem>
+          <NavLink color="foreground" to="/allProduct">Product</NavLink>
+          </NavbarMenuItem>
+          <NavbarMenuItem>
+          <NavLink color="foreground" to="/about">About</NavLink>
+          </NavbarMenuItem>
+          <NavbarMenuItem>
+          <NavLink color="foreground" to="/contact">Contact</NavLink>
+          </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );
